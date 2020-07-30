@@ -1,6 +1,5 @@
 class Negociacao {
 
-    //definindo os atributos da minha classe
     constructor(data, quantidade, valor) {
         this._data = new Date(data.getTime());
         this._quantidade = quantidade;
